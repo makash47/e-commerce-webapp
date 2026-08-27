@@ -1,15 +1,17 @@
 import React from 'react'
+import { BsFillCartXFill } from 'react-icons/bs'
 import { NavLink } from 'react-router'
+import { CiHeart } from "react-icons/ci";
 
-const PageNotFound = () => {
+const EmptyFav = () => {
   return (
-   <>
-   <div className='max-w-md mx-auto px-4 flex flex-col items-center justify-center py-24'>
+    <>
+     <div className='max-w-md mx-auto px-4 flex flex-col items-center justify-center py-24'>
     <div className='shadow-lg p-16 rounded-full shadow-gray-400 mb-10'>
-      <h1 className='font-bold text-2xl text-red-600'>404</h1>
+      <h1 className='font-bold text-3xl text-gray-600'><CiHeart /> </h1>
     </div>
-    <h2 className='font-bold text-3xl'>Page Not Found</h2>
-    <p className='my-8 font-md text-gray-600 text-center'>The page you are looking has moved, or never existed. The collection is still where you left it</p>
+    <h2 className='font-bold text-3xl'>No Favourites</h2>
+    <p className='my-8 font-md text-gray-600 text-center'>Once you add something you love, it will appear here.</p>
    <div className="flex gap-4">
     <NavLink to="/" className="bg-indigo-600 text-gray-200 px-4 py-2 rounded-md font-medium hover:bg-indigo-500">
       Back Home
@@ -20,8 +22,8 @@ const PageNotFound = () => {
    </div>
 
    </div>
-   </>
+    </>
   )
 }
 
-export default PageNotFound
+export default EmptyFav
