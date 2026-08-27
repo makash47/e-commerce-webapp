@@ -1,16 +1,37 @@
-# React + Vite
+# 🛒 E-Commerce Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce application built with React. It includes product browsing, searching, filtering, pagination, and cart management with a clean user experience.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Product listing with API integration
+- Search products
+- Filter by category
+- Price range filtering
+- Pagination
+- Product details page
+- Add to cart functionality
+- Wishlist support
+- Responsive design
+- URL-based filters using React Router
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (Vite)
+- Tailwind CSS
+- React Router
+- React Query
+- Context API
+- Axios
+- Platzi Fake Store API
 
-## Expanding the ESLint configuration
+## 📚 What I Learned
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Building reusable React components
+- Managing global state with Context API
+- Server state management using React Query
+- Working with REST APIs using Axios
+- Implementing search, filters, and pagination
+- Managing URL state with React Router search params
+- Creating responsive layouts with Tailwind CSS
+- Structuring a scalable React project
