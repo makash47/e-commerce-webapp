@@ -139,8 +139,7 @@ const clearFilters = () =>{
           {/* button for mobile filters */}
            <button onClick={() => setShowFilters(true)}
            className="lg:hidden bg-indigo-600 text-white px-4 py-2 rounded-lg mb-4">Filters</button>
-
-
+           
               <ProductsList
                products={data}
               />

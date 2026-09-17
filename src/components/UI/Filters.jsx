@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Slider } from "@/components/ui/slider";
+import { Slider } from "./slider";
+// import { Slider } from "@/components/ui/slider";
+
 
 const Filters = ({categories = [],category,setCategory,minPrice,maxPrice,handlePriceChange,clearFilters}) => {
   
@@ -10,7 +12,7 @@ const Filters = ({categories = [],category,setCategory,minPrice,maxPrice,handleP
   }, [minPrice, maxPrice]);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 py-10">
 
       {/* Categories */}
       <div>
